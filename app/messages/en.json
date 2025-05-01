@@ -1,0 +1,44 @@
+{
+  "app": {
+    "title": "AI Attractiveness Test",
+    "description": "Upload a photo to analyze your facial beauty score"
+  },
+  "upload": {
+    "title": "Select Photo",
+    "dragAndDrop": "Click to upload or drag and drop",
+    "fileTypes": "Accepts JPG, PNG, WebP. Max size 3MB.",
+    "requirements": "Clear, front-facing, no obstructions (sunglasses/masks), no filters, color photo, recommended for users 16+.",
+    "button": "Select Photo",
+    "errors": {
+      "fileType": "Only JPG/PNG/WebP files are allowed.",
+      "fileSize": "File size cannot exceed 3MB.",
+      "noFile": "No file selected."
+    }
+  },
+  "analysis": {
+    "loading": "Analyzing... {progress}%",
+    "cancel": "Cancel",
+    "cancelled": "Analysis cancelled."
+  },
+  "result": {
+    "examples": "Example faces in different score ranges:",
+    "button": "Analyze Another Photo",
+    "issues": {
+      "filter_detected": "Filter detected, result may be inaccurate.",
+      "pose_off_center": "Face not centered, result may be inaccurate.",
+      "low_resolution": "Low resolution image, result may be inaccurate.",
+      "poor_lighting": "Poor lighting conditions, result may be inaccurate.",
+      "multiple_faces": "Multiple faces detected, result for dominant face.",
+      "face_partially_visible": "Face partially visible, result may be inaccurate.",
+      "default": "Issue detected, result may be inaccurate."
+    }
+  },
+  "errors": {
+    "title": "Error",
+    "NO_FACE_DETECTED": "No face detected. Please upload a clear, front-facing photo.",
+    "PROCESSING_TIMEOUT": "Analysis timed out. Please check your connection, try compressing the image, or try again later.",
+    "UNKNOWN_ERROR": "Analysis failed. Please try again later.",
+    "retry": "Retry",
+    "goBack": "Go Back"
+  }
+} 
