@@ -39,3 +39,14 @@ next-env.d.ts
 .vscode
 # SpecStory explanation file
 .specstory/.what-is-this.md
+
+# specstory 
+/specstory/
+.specstory/
+
+.prd/
+.progress/
+.seo-strategy.md
+.seo-progress.md
+.cursorrules.md
+.cursorignore.md

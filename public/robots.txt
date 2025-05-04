@@ -1,0 +1,29 @@
+# AI Beauty Test - robots.txt
+# Allow all search engines to index the website
+
+User-agent: *
+Allow: /
+
+# Allow access to all content folders
+Allow: /blog/
+Allow: /faq/
+Allow: /beauty-score-explained/
+Allow: /ai-beauty-analyzer/
+Allow: /how-normal-am-i/
+
+# Sitemap location
+Sitemap: https://ai-beauty-test.com/sitemap.xml
+
+# Disallow crawling of unnecessary or administrative pages
+Disallow: /admin/
+Disallow: /api/
+Disallow: /.next/
+Disallow: /_next/static/
+Disallow: /_next/image 
+
+# Set crawl delay for intensive bots
+User-agent: AhrefsBot
+Crawl-delay: 10
+
+User-agent: SemrushBot
+Crawl-delay: 10 

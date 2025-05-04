@@ -8,8 +8,6 @@ const nextConfig = {
     // 在生产构建时忽略TypeScript错误
     ignoreBuildErrors: true,
   },
-  output: 'export',  // 静态导出
-  distDir: 'out',    // 修改输出目录
   // 启用webpack分块优化
   webpack: (config) => {
     config.optimization.splitChunks = {
